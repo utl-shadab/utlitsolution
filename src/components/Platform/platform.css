@@ -1,0 +1,29 @@
+.platform{
+background-color: #ff5252;
+padding: 30px 0;
+}
+.Platform-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: white;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 23px;
+}
+.platform-icon img{
+    height: 80px;
+}
+.head-title {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    margin: 8px 0;
+    text-align: center;
+}
+.head-para{
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: center;
+}
