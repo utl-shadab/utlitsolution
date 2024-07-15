@@ -1,0 +1,39 @@
+.slider-container {
+    overflow: hidden;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo-slider {
+    display: flex;
+    width: calc(200%); 
+    animation: slide-logo 10s linear infinite;
+  }
+  
+  @keyframes slide-logo {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .logo-slide {
+    min-width: 10%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logos {
+    max-width: 150px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+    height: 37px;
+  }
+  
+  .logos:hover {
+    filter: grayscale(0%);
+    height: 37px;
+  }

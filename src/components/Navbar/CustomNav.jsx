@@ -238,7 +238,7 @@ const toggleTechnologiesMenu = () => setIsOpenTechnologies(!isOpenTechnologies);
     return (
         <>
         <nav className="navbar header-menu navbar-expand-lg navbar-light px-lg-5">
-            <div className="container">
+            <div className="container-xl">
                 <a className="navbar-brand" href="#" title="Logo">
                     <img src={Logo} alt="Logo" className="img-fluid" style={{ height: '70px' }} />
                 </a>

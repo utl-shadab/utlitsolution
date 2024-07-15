@@ -10,9 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@xyflow/react": "^12.0.1",
     "bootstrap": "^5.3.3",
     "react": "^18.3.1",
+    "react-countup": "^6.5.3",
     "react-dom": "^18.3.1",
+    "react-flow-renderer": "^10.3.17",
     "react-router-dom": "^6.23.1",
     "reactstrap": "^9.2.2",
     "swiper": "^11.1.4"

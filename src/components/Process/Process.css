@@ -1,0 +1,21 @@
+.message-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffcc;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    justify-content: center;
+  }

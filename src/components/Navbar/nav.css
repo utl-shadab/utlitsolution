@@ -9,7 +9,7 @@
 }
 
 .header-menu {
-    background-color: #e13131;
+    background-color: #ffffff;
 }
 
 .navbar-nav .nav-item {
@@ -17,13 +17,17 @@
 }
 
 .nav-item a i {
-    color: #fff;
+    color: #000000;
     font-size: 18px;
     line-height: 0;
     position: relative;
     top: 4px
 }
-
+.btn-secondary {
+    color: #2d80eb;
+    background-color: #6c757d;
+    /* border-color: #6c757d; */
+}
 .dropdown-mega-menu {
     position: absolute;
     opacity: 0;
@@ -112,11 +116,11 @@
     font-size: 16px;
     padding: 0 !important;
     cursor: pointer;
-    color: #ffffff;
+    color: #000000;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    color: #ffffff;
+    color: #000000;
 }
 
 .mobile-menu-list li>a {
@@ -138,11 +142,11 @@
 
 @media (min-width: 992px) {
     .mobile-toggler {
-        display: none;
+        display: none ;
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .nav-link {
         display: inline;
         text-align: start;
